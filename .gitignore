@@ -1,0 +1,25 @@
+# 環境変数・認証情報
+.env
+.env.local
+*.pem
+*.key
+*.token
+
+# Python一時ファイル
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# 一時メモ・作業キャッシュ
+notes/scratch/*
+!notes/scratch/.gitkeep
+*.tmp
+*.log
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
